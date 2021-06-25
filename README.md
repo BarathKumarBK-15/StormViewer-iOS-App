@@ -1,5 +1,5 @@
-# First iOS App - Tour Guide
-A simple interactive application that serves as a tour guide showcasing various tourist locations across the world and detailed description about them, built using `Swift`, `SwiftUI` and `XCode`.
+# Storm Viewer iOS App 
+A simple interactive application built in order to understand the basic working of views, tables, images and navigation controller, implemented using various Object Oriented Programming concepts, built using `Swift`, `Swift UIKit` and `XCode`.
 
 ## Tools and Languages Used :
 <p>
@@ -15,66 +15,46 @@ The code can be downloaded as a compressed `zip` file from the github web interf
 
 The repository can also be cloned using:
 ```
-git clone https://github.com/BarathKumarBK-15/Minesweeper.git
+https://github.com/BarathKumarBK-15/StormViewer-iOS-App.git
 ```
 
 The code of the app can be compiled using `XCode` and can be run using a simulator or an iOS device
 
 ## Components of Project :
-- **Swift** files - 3
-- **SwiftUI** files - 4
-- **JSON** files - 2
+- **Swift** files - 2
+- **Storyboards** - 1
 - _Note: The above mentioned files are the important additional files added to the default Xcode project files_
 
 ## About the Application :
-The application is a sample of a real-time tour guide app. It provides detailed information about a few tourist location present in various parts of the world. The application allows us to choose any location/monument among the available ones and provides a brief deascription about its history and features. The various interactive components of the application are explained in detail below.
-- **Discover Screen** :
+A simple interactive application built in order to understand the basic working of views, tables, images and navigation controller, implemented using various Object Oriented Programming concepts, built using `Swift`, `Swift UIKit` and `XCode`. The application is part of a learning program done to understand the basic of iOS development and simple concepts involved in it.
+- **List Screen** :
   - It acts as the home page of the app.
-  - It provides a simple picture and description about a particular location/monument.
-  - The content displayed by this screen changes based upon the choices made by the user in other screens.
+  - It provides a list of code names of a few storms whose images are available.
+  - Choosing of anyone triggers a transition that redirects the user to a detailed image of the chosen storm.
+  - The page is basically implemented using the `TableView` in `Swift UIKit` with a single column and the the code names displayed in each cell.
   
-- **Locations Screen** :
-  - The screen basically displays the world map.
-  - The various loactions/monuments whose details are avaiable are plotted on it.
-  - Clicking on any of these point redirects the user to the `Discover` Screen containing information about it.
-  - The screen provides feature to zoom in/out and move through the map by swiping
-
-- **Tips Screen** :
-  - It is the _QnA_ screen of the application.
-  - It features some frequently asked question and their corresponding answers can be retrieved by clicking on them.
+- **Image Screen** :
+  - The screen basically displays the image of the chosen strom.
+  - The provision of a common navigation controller enable the user to switch back to the home page.
+  - The page also provides the feature to hide the navigation bar and see and more detailed image of the storm by just tapping on the screen.
   
 - **Graphical Features** :
   - The project contains **multiple graphical content** ranging from _bending of borders_ to _styled fonts_, _contrasting colour switches_, _pictures_ and _eye-soothing layout_.
   - The UI at the same time does not compromise on interactivity.
-  - The `Tips` screen and the `Locations` screen provide great graphical interactivity like drop down of answers and navigation through the map respectively.
+  - The application provides and simple yet compromising transition between table view and image view.
   
-- **Swift and SwiftUI** :
-  - The `Swift` and `SwiftUI` play the most significal role, driving the entire application.
-  - The entire application is built up on various user defined data structures used to represent various views and store decoded `JSON` files.
+- **Swift and UIKit** :
+  - The `Swift` and `Swift UIKit` play the most significal role, driving the entire application.
+  - The entire application is built up on various inbuilt and user defined data structures used to represent various views.
   - Various other inbuilt header files and inbuilt views are used to reach higher capabilities.
+  - The application displays example of transition of views over the navigation controller and the use of image and table views.
   
 ## Screenshots of the Application :
-
-### Discover Screen:
 <table>
   <tr>
     <td> <img src = "screenshots/1.png" height="430" width="210"> </td>
     <td> <img src = "screenshots/2.png" height="430" width="210"> </td>
-  </tr>
-</table>
-
-### Locations Screen:
-<table>
-  <tr>
     <td> <img src = "screenshots/3.png" height="430" width="210"> </td>
-    <td> <img src = "screenshots/4.png" height="430" width="210"> </td>
   </tr>
 </table>
 
-### Tips Screen:
-<table>
-  <tr>
-    <td> <img src = "screenshots/5.png" height="430" width="210"> </td>
-    <td> <img src = "screenshots/6.png" height="430" width="210"> </td>
-  </tr>
-</table>
